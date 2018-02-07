@@ -4,7 +4,7 @@ angular.module('components')
 	return {
 	  restrict: 'E',
 	  scope: {},
-	  templateUrl: 'whoiam.html',
+	  templateUrl: "whoiam.html",
 	  replace: true,
 	  controller: function($scope, $element) {
 	  }

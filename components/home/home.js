@@ -4,22 +4,22 @@ angular.module('components', [])
 	return {
 	  restrict: 'E',
 	  scope: {},
-	  templateUrl: 'home.html',
+	  templateUrl: "home.html",
 	  replace: true,
 	  controller: function($scope, $element) {
 		selectedCategorie = -1;
 		selectedItem = -1;
 
-		selectItem( categorie, item ){
+		selectItem = function( categorie, item ){
 			this.selectedCategorie = categorie;
 			this.selectedItem = item;
 		};
 
-		isSelected( categorie, item ){
+		isSelected = function( categorie, item ){
 			return this.selectedCategorie == categorie && this.selectedItem == item;
 		};
 
-		isSelectedCategorie( categorie ){
+		isSelectedCategorie = function( categorie ){
 			return this.selectedCategorie == categorie;
 		};
 	  }
