@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "webpage containing projects demonstrations.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +11,8 @@
   },
   "author": "Edwyn Batista",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edwynluis/portfolio/issues"
-  },
-  "homepage": "https://github.com/edwynluis/portfolio#readme"
+  "homepage": "https://github.com/edwynluis/portfolio",
+  "dependencies": {
+    "less": "^2.7.3"
+  }
 }
