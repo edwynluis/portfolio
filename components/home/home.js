@@ -6,7 +6,9 @@ angular.module('components', [])
 	  scope: {},
 	  templateUrl: "components/home/home.html",
 	  replace: true,
-	  controller: function($scope, $element) {	  
+	  controller: function($scope, $element) {
+	  	angular.element('#carousel_item_0_0').carousel();
+	  	
 		$scope.selectedCategorie = -1;
 		$scope.selectedItem = -1;
 
