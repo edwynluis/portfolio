@@ -21,11 +21,11 @@
         <!-- Categorie -->
         <div class="categorie">
           <div class="categorie_title">
-            <p>Artificial Intelligence</p>
+            <p>Artificial Intelligence{{title}}</p>
           </div>
           <div class="categorie_content">
 
-            <div class="selectedItem row" [ngClass]="{'selectedItem_invisible': !isSelectedCategorie(0)}">
+            <div class="selectedItem row" ng-class="{'selectedItem_invisible': !isSelectedCategorie(0)}">
 
               <div class="images col-6">
 
@@ -82,14 +82,14 @@
               </div>
 
               <div class="close">
-                <img src="../assets/img/icons/close.ico" alt="" (click)="selectItem(-1,-1)">
+                <img src="../assets/img/icons/close.ico" alt="" ng-click="selectItem(-1,-1)">
               </div>
 
             </div>
 
-            <div class="listItem row" [ngClass]="{'list_invisible': isSelectedCategorie(0)}">
+            <div class="listItem row" ng-class="{'list_invisible': isSelectedCategorie(0)}">
 
-              <div class="item col-4" (click)="selectItem(0,0)">
+              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,0)">
                 <img src="../assets/img/projects/astar_sample.png" alt="A star">
                 <div class="item_label">
                   <p class="title">A star</p>
@@ -97,7 +97,7 @@
                 </div>
               </div>
 
-              <div class="item col-4" (click)="selectItem(0,1)">
+              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,1)">
                 <img src="../assets/img/projects/flocking_sample.png" alt="Flocking">
                 <div class="item_label">
                   <p class="title">Flocking</p>
@@ -105,7 +105,7 @@
                 </div>
               </div>
 
-              <div class="item col-4" (click)="selectItem(0,2)">
+              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,2)">
                 <img src="../assets/img/projects/genetic_sample.png" alt="Genetic">
                 <div class="item_label">
                   <p class="title">Genetic</p>
@@ -120,7 +120,7 @@
 
       </div>
       <div class="lateral_info col-3">
-        <app-whoiam></app-whoiam>
+        <whoiam></whoiam>
       </div>
 
       <div id="footer_contact" class="page_footer col-12">
