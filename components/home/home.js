@@ -142,14 +142,14 @@ angular.module('components', [])
 				items : [
 					{
 						title 			: "A star / Dijkstra",
-						short_desc		: "",//todo
-						full_desc 		: "",//todo
-						keypoints 		: ["Graph algorithms","Terrain described by a text file"],
+						short_desc		: "Implementation and comparison between path finding algorithms; Customizable maps; Choose enemy's algorithm.",
+						full_desc 		: "The enemies use the path finding algorithms to follow the player. This demonstration presents the implementation and comparison between the path finding algorithms. Choose the algorithms which your enemies will use to follow the player and see theirs traces.<br>Create and edit your maps (and costs of terrains) via text files.",
+						keypoints 		: ["Graph algorithms","Map described by a text file"],
 						tools	 		: ["Unity"],
 						context			: "individual",
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/astar",
-						preview_image 	: "../assets/img/projects/ai/astar/preview.png",// todo
+						preview_image 	: "../assets/img/projects/ai/astar/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/ai/astar/1.png", alt : "" }
 										],
@@ -157,14 +157,14 @@ angular.module('components', [])
 					},
 					{
 						title 			: "Flocking",
-						short_desc		: "",//todo
-						full_desc 		: "",//todo
+						short_desc		: "Check how subjects behave based on the group. They follow the target and avoid obstacles.",
+						full_desc 		: "The behavior of a subject is based on the group. Move the pig and the birds will follow him, while they avoid the obstacles. Choose the field of view and see how they behave.",
 						keypoints 		: ["Group behavior algorithm"],
 						tools	 		: ["Unity"],
 						context			: "individual",
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/flocking",
-						preview_image 	: "../assets/img/projects/ai/flocking/preview.png",// todo
+						preview_image 	: "../assets/img/projects/ai/flocking/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "" }
 										],
@@ -172,14 +172,14 @@ angular.module('components', [])
 					},
 					{
 						title 			: "Genetic",
-						short_desc		: "",//todo
-						full_desc 		: "",//todo
-						keypoints 		: ["Genetic metaheuristic","View generations/final result","Terrain described by a text file"],
+						short_desc		: "The problem of the travelling salesperson solved by the genetic algorithm.",
+						full_desc 		: "The problem of the travelling salesperson is solved by the genetic metaheuristic. In this demo, the player will collect the coins, following a short path among them (considering the cost of the terrain). If you want, you can choose between to check the generations or to see the the final solution.<br>Create and edit your maps (and costs of terrains) via text files.",
+						keypoints 		: ["Genetic metaheuristic","Implementation of a reusable framework for the genetic metaheuristic","View generations/final result","Map described by a text file"],
 						tools	 		: ["Unity"],
 						context			: "individual",
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/genetic",
-						preview_image 	: "../assets/img/projects/ai/genetic/preview.png",// todo
+						preview_image 	: "../assets/img/projects/ai/genetic/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "" }
 										],
