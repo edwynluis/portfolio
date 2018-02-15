@@ -19,62 +19,74 @@
       <div class="central_info col-9">
 
         <!-- Categorie -->
-        <div class="categorie">
+        <div class="categorie" ng-repeat="categorie in categories">
           <div class="categorie_title">
-            <p>Artificial Intelligence{{title}}</p>
+            <p>{{categorie.title}}</p>
           </div>
           <div class="categorie_content">
 
-            <div class="selectedItem row" ng-class="{'selectedItem_invisible': !isSelectedCategorie(0)}">
+            <div class="selectedItem row" ng-class="{'selectedItem_invisible': !isSelectedCategorie(categorie.index)}">
 
               <div class="images col-6">
 
-                <div id="carousel_item_0_0" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div id="carousel_categorie_{{categorie.index}}" class="carousel slide" data-ride="carousel" data-interval="2000">
                   <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block" src="../assets/img/projects/ai/astar/1.png" alt="">
+                    <div class="carousel-item" ng-repeat="image in categorie.items[ selectedItem ].images">
+                      <img class="d-block" ng-src="image.img" alt="image.alt">
                     </div>
-                    <div class="carousel-item">
-                      <img class="d-block" src="../assets/img/projects/ai/flocking/1.png" alt="">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block" src="../assets/img/projects/ai/genetic/1.png" alt="">
-                    </div>
-                    <!--<div class="embed-responsive embed-responsive-4by3 carousel-item">
-                      <iframe class="d-block embed-responsive-item" src="https://www.youtube.com/watch?v=C4lg8a-40xs"></iframe>
-                    </div>-->
                   </div>
                 </div>
 
                 <div class="miniatures">
-                  <img src="../assets/img/projects/ai/astar/1.png" alt=""
-                  data-target="#carousel_item_0_0" data-slide-to="0">
-                  <img src="../assets/img/projects/ai/flocking/1.png" alt=""
-                  data-target="#carousel_item_0_0" data-slide-to="1">
-                  <img src="../assets/img/projects/ai/genetic/1.png" alt=""
-                  data-target="#carousel_item_0_0" data-slide-to="2">
-                  <a href="https://www.youtube.com/watch?v=C4lg8a-40xs" target="_blank">
-                    <img src="../assets/img/projects/ai/genetic/1.png" alt="">
+                  <img g-repeat="image in categorie.items[ selectedItem ].images"
+                    ng-src="image.img"
+                    alt="image.alt"
+                    data-target="#carousel_categorie_{{categorie.index}}"
+                    data-slide-to="$index"
+                  >
+                  <a g-repeat="link in categorie.items[ selectedItem ].videos"
+                    ng-href="{{link.link}}" target="_blank"
+                  >
+                    <img ng-src="{{link.img}}" alt="{{link.alt}}">
                   </a>
                 </div>
               </div>
 
               <div class="info col-6">
-                <div class="row"><div class="cell col-12 title">Title</div></div>
-                <div class="row"><div class="cell col-12 desc">Description</div></div>
+                <div class="row"><div class="cell col-12 title">categorie.items[ selectedItem ].title</div></div>
+                <div class="row"><div class="cell col-12 desc">categorie.items[ selectedItem ].full_desc</div></div>
                 <div class="row">
                   <div class="cell col-3 label">Key points:</div>
-                  <div class="cell col-9 content"></div>
+                  <div class="cell col-9 content">
+                    <ul>
+                      <li ng-repeat="keypoint in categorie.items[ selectedItem ].keypoints">
+                        {{keypoint}}
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="row">
                   <div class="cell col-3 label">Tools:</div>
-                  <div class="cell col-9 content"></div>
+                  <div class="cell col-9 content">
+                    <span class="badge badge-info"
+                      ng-repeat="tool in categorie.items[ selectedItem ].tool">
+                      tool
+                    </span>
+                  </div>
                 </div>
                 <div class="row">
-                  <a class="cell col-6 playit icon" href="https://github.com/Edwyn-Gamagora2017" target="_blank">
+                  <div class="cell col-3 label">Context:</div>
+                  <div class="cell col-9 content">
+                    <span class="badge badge-secondary">
+                      {{categorie.items[ selectedItem ].context}}
+                    </span>
+                  </div>
+                </div>
+                <div class="row">
+                  <a class="cell col-6 playit icon" ng-if="categorie.items[ selectedItem ].play" ng-href="categorie.items[ selectedItem ].play" target="_blank">
                     Play it!
                   </a>
-                  <a class="cell col-6 icon" href="https://github.com/Edwyn-Gamagora2017" target="_blank">
+                  <a class="cell col-6 icon" ng-if="categorie.items[ selectedItem ].repository" ng-href="categorie.items[ selectedItem ].repository" target="_blank">
                     Repository
                     <img src="../assets/img/icons/github.png" alt="github">
                   </a>
@@ -87,29 +99,13 @@
 
             </div>
 
-            <div class="listItem row" ng-class="{'list_invisible': isSelectedCategorie(0)}">
+            <div class="listItem row" ng-class="{'list_invisible': isSelectedCategorie( categorie.index )}">
 
-              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,0)">
-                <img src="../assets/img/projects/ai/astar/preview.png" alt="A star">
+              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-repeat="item in categorie.items" ng-click="selectItem( categorie.index , $index )">
+                <img ng-src="item.preview_img" alt="item.title">
                 <div class="item_label">
-                  <p class="title">A star</p>
-                  <p class="description">Description</p>
-                </div>
-              </div>
-
-              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,1)">
-                <img src="../assets/img/projects/ai/flocking/preview.png" alt="Flocking">
-                <div class="item_label">
-                  <p class="title">Flocking</p>
-                  <p class="description">Description</p>
-                </div>
-              </div>
-
-              <div class="item col-lg-4 col-sm-6 col-xs-12" ng-click="selectItem(0,2)">
-                <img src="../assets/img/projects/ai/genetic/preview.png" alt="Genetic">
-                <div class="item_label">
-                  <p class="title">Genetic</p>
-                  <p class="description">Description</p>
+                  <p class="title">{{item.title}}</p>
+                  <p class="description">{{item.short_desc}}</p>
                 </div>
               </div>
 

@@ -28,6 +28,7 @@ angular.module('components', [])
 		$scope.categories = [
 			{
 				title : "Games",
+				index : 0,
 				items : [
 					{
 						title 			: "Zombie Escape",
@@ -44,23 +45,6 @@ angular.module('components', [])
 										],
 						videos			: [
 											{ img : "../assets/img/video.png", link : "", alt : "" }// todo
-										]
-					},
-					{
-						title 			: "Computer Vision",
-						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
-						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
-						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
-						tools	 		: ["Unity","OpenCV (EmguCV)"],
-						context			: "3 Programmers",
-						repository		: "https://github.com/GeboWunjo/OpenCV.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/vision/preview.png",//todo
-						images 			: [
-											{ img : "../assets/img/projects/games/vision/1.png", alt : "" }//todo
-										],
-						videos			: [
-											{ img : "../assets/img/video.png", link : "", alt : "" }//todo
 										]
 					},
 					{
@@ -89,19 +73,22 @@ angular.module('components', [])
 						context			: "5 Programmers; 10 Game Designers; 1 Graphic Designer; 1 Music/Sound Effects Composer",
 						repository		: "https://github.com/galliotgreg/Lumy_Naissance.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/lumy/preview.png",//todo
+						preview_image 	: "../assets/img/projects/games/lumy/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/games/lumy/1.png", alt : "" }//todo
+											{ img : "../assets/img/projects/games/lumy/1.png", alt : "Lumy Naissance" },
+											{ img : "../assets/img/projects/games/lumy/2.png", alt : "Terrain" },
+											{ img : "../assets/img/projects/games/lumy/3.png", alt : "Units" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "", alt : "" },//todo
-											{ img : "../assets/img/facebook.png", link : "", alt : "" }//todo facebook
+											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },//todo
+											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }//todo facebook
 										]
 					}
 				]
 			},
 			{
 				title : "Education",
+				index : 1,
 				items : [
 					{
 						title 			: "Desafio",
@@ -138,7 +125,46 @@ angular.module('components', [])
 				]
 			},
 			{
+				title : "Applications",
+				index : 2,
+				items : [
+					{
+						title 			: "Computer Vision",
+						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
+						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
+						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
+						tools	 		: ["Unity","OpenCV (EmguCV)"],
+						context			: "3 Programmers",
+						repository		: "https://github.com/GeboWunjo/OpenCV.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/vision/preview.png",//todo
+						images 			: [
+											{ img : "../assets/img/projects/applications/vision/1.png", alt : "" }//todo
+										],
+						videos			: [
+											{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+										]
+					},
+					{
+						title 			: "Nao Robot",
+						short_desc		: "Choose an animal and Nao, the robot, will guess it.",
+						full_desc 		: "This project is a guessing game elaborated as part of the Human-robot interaction course (Radboud University, Nehterlands).<br>The player chooses an animal in a list. Then the robot asks some questions in order to guess their choice.<br>The solution is developed using the robot dev kit, which is able to deal with voice recognition, robot movements etc.",
+						keypoints 		: ["Human-robot interaction"],
+						tools	 		: ["Nao Robot dev kit"],
+						context			: "2 Programmers",
+						repository		: undefined,
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/nao/preview.png",//todo
+						images 			: [
+											{ img : "../assets/img/projects/applications/nao/1.png", alt : "" }//todo
+										],
+						videos			: []
+					}
+				]
+			},
+			{
 				title : "Artificial Intelligence",
+				index : 3,
 				items : [
 					{
 						title 			: "A star / Dijkstra",
@@ -186,12 +212,13 @@ angular.module('components', [])
 						videos			: []
 					}
 				]
-			},
+			}/*,
 			{
 				title : "General",
+				index : 3,
 				items : [
 				]
-			}
+			}*/
 		];
 	  }
 	};
