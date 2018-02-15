@@ -32,17 +32,17 @@
                 <div id="carousel_categorie_{{categorie.index}}" class="carousel slide" data-ride="carousel" data-interval="2000">
                   <div class="carousel-inner">
                     <div class="carousel-item" ng-repeat="image in categorie.items[ selectedItem ].images">
-                      <img class="d-block" ng-src="image.img" alt="image.alt">
+                      <img class="d-block" ng-src="{{image.img}}" alt="{{image.alt}}">
                     </div>
                   </div>
                 </div>
 
                 <div class="miniatures">
                   <img g-repeat="image in categorie.items[ selectedItem ].images"
-                    ng-src="image.img"
-                    alt="image.alt"
+                    ng-src="{{image.img}}"
+                    alt="{{image.alt}}"
                     data-target="#carousel_categorie_{{categorie.index}}"
-                    data-slide-to="$index"
+                    data-slide-to="{{$index}}"
                   >
                   <a g-repeat="link in categorie.items[ selectedItem ].videos"
                     ng-href="{{link.link}}" target="_blank"
@@ -53,8 +53,8 @@
               </div>
 
               <div class="info col-6">
-                <div class="row"><div class="cell col-12 title">categorie.items[ selectedItem ].title</div></div>
-                <div class="row"><div class="cell col-12 desc">categorie.items[ selectedItem ].full_desc</div></div>
+                <div class="row"><div class="cell col-12 title">{{categorie.items[ selectedItem ].title}}</div></div>
+                <div class="row"><div class="cell col-12 desc" ng-bind-html="categorie.items[ selectedItem ].full_desc"></div></div>
                 <div class="row">
                   <div class="cell col-3 label">Key points:</div>
                   <div class="cell col-9 content">
@@ -69,24 +69,25 @@
                   <div class="cell col-3 label">Tools:</div>
                   <div class="cell col-9 content">
                     <span class="badge badge-info"
-                      ng-repeat="tool in categorie.items[ selectedItem ].tool">
-                      tool
+                      ng-repeat="tool in categorie.items[ selectedItem ].tools">
+                      {{tool}}
                     </span>
                   </div>
                 </div>
                 <div class="row">
                   <div class="cell col-3 label">Context:</div>
                   <div class="cell col-9 content">
-                    <span class="badge badge-secondary">
-                      {{categorie.items[ selectedItem ].context}}
+                    <span class="badge badge-secondary"
+                      ng-repeat="context in categorie.items[ selectedItem ].context">
+                      {{context}}
                     </span>
                   </div>
                 </div>
                 <div class="row">
-                  <a class="cell col-6 playit icon" ng-if="categorie.items[ selectedItem ].play" ng-href="categorie.items[ selectedItem ].play" target="_blank">
+                  <a class="cell col-6 playit icon" ng-if="categorie.items[ selectedItem ].play" ng-href="{{categorie.items[ selectedItem ].play}}" target="_blank">
                     Play it!
                   </a>
-                  <a class="cell col-6 icon" ng-if="categorie.items[ selectedItem ].repository" ng-href="categorie.items[ selectedItem ].repository" target="_blank">
+                  <a class="cell col-6 icon" ng-if="categorie.items[ selectedItem ].repository" ng-href="{{categorie.items[ selectedItem ].repository}}" target="_blank">
                     Repository
                     <img src="../assets/img/icons/github.png" alt="github">
                   </a>
@@ -102,10 +103,10 @@
             <div class="listItem row" ng-class="{'list_invisible': isSelectedCategorie( categorie.index )}">
 
               <div class="item col-lg-4 col-sm-6 col-xs-12" ng-repeat="item in categorie.items" ng-click="selectItem( categorie.index , $index )">
-                <img ng-src="item.preview_img" alt="item.title">
+                <img ng-src="{{item.preview_image}}" alt="{{item.title}}">
                 <div class="item_label">
                   <p class="title">{{item.title}}</p>
-                  <p class="description">{{item.short_desc}}</p>
+                  <p class="description" ng-bind-html="item.short_desc"></p>
                 </div>
               </div>
 
