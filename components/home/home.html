@@ -43,12 +43,16 @@
                     alt="{{image.alt}}"
                     data-target="#carousel_categorie_{{categorie.index}}"
                     data-slide-to="{{$index}}"
+                    class="col-3"
                   >
-                  <a ng-repeat="link in categorie.items[ selectedItem ].videos"
-                    ng-href="{{link.link}}" target="_blank"
-                  >
-                    <img ng-src="{{link.img}}" alt="{{link.alt}}">
-                  </a>
+                  <div>
+                    <a ng-repeat="link in categorie.items[ selectedItem ].videos"
+                      ng-href="{{link.link}}" target="_blank"
+                      class="col-2"
+                    >
+                      <img ng-src="{{link.img}}" alt="{{link.alt}}">
+                    </a>
+                  </div>
                 </div>
               </div>
 
