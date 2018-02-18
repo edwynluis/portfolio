@@ -15,6 +15,9 @@ angular.module('components', ['ngSanitize'])
 			$scope.selectedItem = item;
 
 			angular.element('#carousel_categorie_'+categorie).carousel();
+			/*for (var i = 0; i < $scope.categories.length; i++) {
+				angular.element('#carousel_categorie_'+$scope.categories[i].index).carousel(0);
+			};*/
 		};
 
 		$scope.isSelected = function( categorie, item ){

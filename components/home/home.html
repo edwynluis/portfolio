@@ -31,20 +31,20 @@
 
                 <div id="carousel_categorie_{{categorie.index}}" class="carousel slide" data-ride="carousel" data-interval="2000">
                   <div class="carousel-inner">
-                    <div class="carousel-item" ng-repeat="image in categorie.items[ selectedItem ].images">
+                    <div class="carousel-item" ng-class={'active':$first} ng-repeat="image in categorie.items[ selectedItem ].images">
                       <img class="d-block" ng-src="{{image.img}}" alt="{{image.alt}}">
                     </div>
                   </div>
                 </div>
 
                 <div class="miniatures">
-                  <img g-repeat="image in categorie.items[ selectedItem ].images"
+                  <img ng-repeat="image in categorie.items[ selectedItem ].images"
                     ng-src="{{image.img}}"
                     alt="{{image.alt}}"
                     data-target="#carousel_categorie_{{categorie.index}}"
                     data-slide-to="{{$index}}"
                   >
-                  <a g-repeat="link in categorie.items[ selectedItem ].videos"
+                  <a ng-repeat="link in categorie.items[ selectedItem ].videos"
                     ng-href="{{link.link}}" target="_blank"
                   >
                     <img ng-src="{{link.img}}" alt="{{link.alt}}">
