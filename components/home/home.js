@@ -95,33 +95,39 @@ angular.module('components', ['ngSanitize'])
 				items : [
 					{
 						title 			: "Desafio",
-						short_desc		: "",//todo
-						full_desc 		: "",//todo
+						short_desc		: "What about exercising the subjects of your classes by playing a game with your classmates? \"Desafio\" is a mobile game that makes the students collaborate and compete during a class section.",
+						full_desc 		: "The \"Desafio\" proposes a game to be played during a class section. The students download the mobile application and play a multiplayer quiz.<br>The gameplay was oriented to emphasize the interaction among the students, by stimulating them to collaborate and to compete. They can help their team partners by sending them tips, or block their opponents with the freezing ray, for example. And the interaction that happens outside the application is just as interesting.<br>This way, they can exercise the subjects of classes and have fun at the same time.",
 						keypoints 		: ["Gamification of classes","Multiplayer","Experimentation during classes","Mobile game for the students","Web Service to concentrate the content"],
 						tools	 		: ["Unity","AngularJS","SailsJS"],
-						context			: ["Individual"],
+						context			: ["Individual (Bachelor Thesis)"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/desafio/preview.png",// todo
+						preview_image 	: "../assets/img/projects/education/desafio/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/education/desafio/", alt : "" }//todo
+											{ img : "../assets/img/projects/education/desafio/1.png", alt : "Welcome Screen" },
+											{ img : "../assets/img/projects/education/desafio/2.png", alt : "Multiple Choice Activity" },
+											{ img : "../assets/img/projects/education/desafio/3.png", alt : "Matching Activity" },
+											{ img : "../assets/img/projects/education/desafio/4.png", alt : "Freezing Ray Item's Effect" },
+											{ img : "../assets/img/projects/education/desafio/6.png", alt : "Ranking" }
 										],
 						videos			: [
-											{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
+											//{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
 										]
 					},
 					{
 						title 			: "UCC",
-						short_desc		: "",//todo
-						full_desc 		: "",//todo
+						short_desc		: "The programming contests are an important part of a student's formation in computer science. So, let's train in a fun way!",
+						full_desc 		: "As part of the PET-CC (Students who produce activities for helping other students), we proposed a contest inspired on the ACM programming competitions for bachelor's degree students. So, the competitors came on saturdays to participate in several modalities. Some gifts for the winners... Exercising and sharing knowledge were the objective.",
 						keypoints 		: ["Gamification"],
 						tools	 		: ["Boca (Contest Platform)"],
 						context			: ["2 trainees (PET-CC)"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/ucc/preview.png",// todo
+						preview_image 	: "../assets/img/projects/education/ucc/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/education/ucc/1.png", alt : "" }//todo
+											{ img : "../assets/img/projects/education/ucc/1.png", alt : "Ultimate Coding Championship" },
+											{ img : "../assets/img/projects/education/ucc/2.png", alt : "Modalities" },
+											{ img : "../assets/img/projects/education/ucc/3.png", alt : "Participants" }
 										],
 						videos			: []
 					}
@@ -157,9 +163,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["2 Programmers"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/nao/preview.png",//todo
+						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",//todo
 						images 			: [
-											{ img : "../assets/img/projects/applications/nao/1.png", alt : "" }//todo
+											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
+											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
+											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
 										],
 						videos			: []
 					}
