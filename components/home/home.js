@@ -42,12 +42,14 @@ angular.module('components', ['ngSanitize'])
 						context			: ["3 Programmers","3 Game Designers"],
 						repository		: "https://github.com/galliotgreg/Zombi-Escape.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/zombie/preview.png",//todo
+						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",//todo
 						images 			: [
-											{ img : "../assets/img/projects/games/zombie/1.png", alt : "" }// todo
+											{ img : "../assets/img/projects/games/zombie/2.png", alt : "Player view" },
+											{ img : "../assets/img/projects/games/zombie/1.png", alt : "Multiplayer" },
+											{ img : "../assets/img/projects/games/zombie/3.png", alt : "Final Score" },
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "", alt : "" }// todo
+											//{ img : "../assets/img/video.png", link : "", alt : "" }// todo
 										]
 					},
 					{
@@ -59,12 +61,15 @@ angular.module('components', ['ngSanitize'])
 						context			: ["1 Programmer","5 Game Designers"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/billy.git",
 						play			: "https://edwynbatista.herokuapp.com/billy",
-						preview_image 	: "../assets/img/projects/games/billy/preview.png",// todo
+						preview_image 	: "../assets/img/projects/games/billy/1.png",// todo
 						images 			: [
-											{ img : "../assets/img/projects/games/billy/1.png", alt : "" }//todo
+											{ img : "../assets/img/projects/games/billy/1.png", alt : "Logo" },
+											{ img : "../assets/img/projects/games/billy/2.png", alt : "Character" },
+											{ img : "../assets/img/projects/games/billy/3.png", alt : "Map (in-game)" },
+											{ img : "../assets/img/projects/games/billy/4.png", alt : "3D perspective" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
 										]
 					},
 					{
@@ -148,10 +153,12 @@ angular.module('components', ['ngSanitize'])
 						play			: undefined,
 						preview_image 	: "../assets/img/projects/applications/vision/preview.png",//todo
 						images 			: [
-											{ img : "../assets/img/projects/applications/vision/1.png", alt : "" }//todo
+											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
+											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
+											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
 										]
 					},
 					{
@@ -186,9 +193,10 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/astar",
-						preview_image 	: "../assets/img/projects/ai/astar/preview.png",
+						preview_image 	: "../assets/img/projects/ai/astar/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/astar/1.png", alt : "" }
+											{ img : "../assets/img/projects/ai/astar/1.png", alt : "A* and Dijkstra paths" },
+											{ img : "../assets/img/projects/ai/astar/2.png", alt : "A* and Dijkstra paths" }
 										],
 						videos			: []
 					},
@@ -201,9 +209,10 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/flocking",
-						preview_image 	: "../assets/img/projects/ai/flocking/preview.png",
+						preview_image 	: "../assets/img/projects/ai/flocking/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "" }
+											{ img : "../assets/img/projects/ai/flocking/2.png", alt : "field of view : 360 degrees" },
+											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "field of view : 90 degrees" }
 										],
 						videos			: []
 					},
@@ -216,9 +225,9 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/genetic",
-						preview_image 	: "../assets/img/projects/ai/genetic/preview.png",
+						preview_image 	: "../assets/img/projects/ai/genetic/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "" }
+											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" }
 										],
 						videos			: []
 					}
