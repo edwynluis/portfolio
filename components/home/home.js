@@ -234,9 +234,89 @@ angular.module('components', ['ngSanitize'])
 				]
 			}/*,
 			{
-				title : "General",
-				index : 3,
+				title : "Modelisation and Image Synthesis",
+				index : 4,
 				items : [
+					{
+						title 			: "Primitives and Curves",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/primitive/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/primitive/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/primitive/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Meshes",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/mesh/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Voxel",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/voxel/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/voxel/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/voxel/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Image Synthesis and Shaders",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Cinematics",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/cinematics/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/cinematics/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/cinematics/2.png", alt : "" }
+										],
+						videos			: []
+					}
 				]
 			}*/
 		];
