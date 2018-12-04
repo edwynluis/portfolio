@@ -34,6 +34,27 @@ angular.module('components', ['ngSanitize'])
 				index : 0,
 				items : [
 					{
+						title 			: "Lumy Naissance",
+						short_desc		: "Create the behavior of your units and destroy the enemy.<br>A game to introduce programming concepts.",
+						full_desc 		: "In the \"Lumy Naissance\", the player controls its own specie and manipulates its evolution tree. The player defines the behavior for each cast of this tree. Then, the units will execute these behaviors ingame in order to beat the enemy. The manipulation of units' behaviors is performed via an editor that presents them as decisions trees. So, the player will face several programming-like concepts, as a means to get started in this domain.<br>The \"Lumy Naissance\" is the game proposed for a 3 months project, as part of the Master 2. During this period, the students simulate a real studio environment, including the interaction with game/graphic/sound designers. This game was be presented at the Gamagora Game Show.",
+						keypoints 		: ["Serious Game","Multiplayer","Multidisciplinary team","Large project code management"],
+						tools	 		: ["Unity"],
+						context			: ["5 Programmers","10 Game Designers","1 Graphic Designer","1 Music/Sound Effects Composer"],
+						repository		: "https://github.com/galliotgreg/Lumy_Naissance.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/games/lumy/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/games/lumy/1.png", alt : "Lumy Naissance" },
+											{ img : "../assets/img/projects/games/lumy/1.gif", alt : "Game" },
+											{ img : "../assets/img/projects/games/lumy/2.gif", alt : "Editing Behavior" },
+											{ img : "../assets/img/projects/games/lumy/4.png", alt : "Editing Unit" }
+										],
+						videos			: [
+											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },//todo
+											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }//todo facebook
+										]
+					},
+					{
 						title 			: "Zombie Escape",
 						short_desc		: "Survive! That is your only objective.<br>Kill zombies and help your friends in this multiplayer game.",
 						full_desc 		: "In this multiplayer game, the players are lost in a sewer system full of zombies. They must collect items with the aim of surviving.<br>A game developed during a 2 weeks course, as a means to introduce the interaction between Programmers and Game Designers.",
@@ -71,118 +92,12 @@ angular.module('components', ['ngSanitize'])
 						videos			: [
 											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
 										]
-					},
-					{
-						title 			: "Lumy Naissance",
-						short_desc		: "Create the behavior of your units and destroy the enemy.<br>A game to introduce programming concepts.",
-						full_desc 		: "In the \"Lumy Naissance\", the player controls its own specie and manipulates its evolution tree. The player defines the behavior for each cast of this tree. Then, the units will execute these behaviors ingame in order to beat the enemy. The manipulation of units' behaviors is performed via an editor that presents them as decisions trees. So, the player will face several programming-like concepts, as a means to get started in this domain.<br>The \"Lumy Naissance\" is the game proposed for a 3 months project, as part of the Master 2. During this period, the students simulate a real studio environment, including the interaction with game/graphic/sound designers. This game will be presented at the Gamagora Game Show.",
-						keypoints 		: ["Serious Game","Multiplayer","Multidisciplinary team","Large project code management"],
-						tools	 		: ["Unity"],
-						context			: ["5 Programmers","10 Game Designers","1 Graphic Designer","1 Music/Sound Effects Composer"],
-						repository		: "https://github.com/galliotgreg/Lumy_Naissance.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/lumy/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/games/lumy/1.png", alt : "Lumy Naissance" },
-											{ img : "../assets/img/projects/games/lumy/2.png", alt : "Terrain" },
-											{ img : "../assets/img/projects/games/lumy/3.png", alt : "Units" }
-										],
-						videos			: [
-											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },//todo
-											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }//todo facebook
-										]
-					}
-				]
-			},
-			{
-				title : "Education",
-				index : 1,
-				items : [
-					{
-						title 			: "Desafio",
-						short_desc		: "What about exercising the subjects of your classes by playing a game with your classmates? \"Desafio\" is a mobile game that makes the students collaborate and compete during a class section.",
-						full_desc 		: "The \"Desafio\" proposes a game to be played during a class section. The students download the mobile application and play a multiplayer quiz.<br>The gameplay was oriented to emphasize the interaction among the students, by stimulating them to collaborate and to compete. They can help their team partners by sending them tips, or block their opponents with the freezing ray, for example. And the interaction that happens outside the application is just as interesting.<br>This way, they can exercise the subjects of classes and have fun at the same time.",
-						keypoints 		: ["Gamification of classes","Multiplayer","Experimentation during classes","Mobile game for the students","Web Service to concentrate the content"],
-						tools	 		: ["Unity","AngularJS","SailsJS"],
-						context			: ["Individual (Bachelor Thesis)"],
-						repository		: undefined,
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/desafio/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/education/desafio/1.png", alt : "Welcome Screen" },
-											{ img : "../assets/img/projects/education/desafio/2.png", alt : "Multiple Choice Activity" },
-											{ img : "../assets/img/projects/education/desafio/3.png", alt : "Matching Activity" },
-											{ img : "../assets/img/projects/education/desafio/4.png", alt : "Freezing Ray Item's Effect" },
-											{ img : "../assets/img/projects/education/desafio/6.png", alt : "Ranking" }
-										],
-						videos			: [
-											//{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
-										]
-					},
-					{
-						title 			: "UCC",
-						short_desc		: "The programming contests are an important part of a student's formation in computer science. So, let's train in a fun way!",
-						full_desc 		: "As part of the PET-CC (Students who produce activities for helping other students), we proposed a contest inspired on the ACM programming competitions for bachelor's degree students. So, the competitors came on saturdays to participate in several modalities. Some gifts for the winners... Exercising and sharing knowledge were the objective.",
-						keypoints 		: ["Gamification"],
-						tools	 		: ["Boca (Contest Platform)"],
-						context			: ["2 trainees (PET-CC)"],
-						repository		: undefined,
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/ucc/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/education/ucc/1.png", alt : "Ultimate Coding Championship" },
-											{ img : "../assets/img/projects/education/ucc/2.png", alt : "Modalities" },
-											{ img : "../assets/img/projects/education/ucc/3.png", alt : "Participants" }
-										],
-						videos			: []
-					}
-				]
-			},
-			{
-				title : "Applications",
-				index : 2,
-				items : [
-					{
-						title 			: "Computer Vision",
-						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
-						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
-						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
-						tools	 		: ["Unity","OpenCV (EmguCV)"],
-						context			: ["3 Programmers"],
-						repository		: "https://github.com/GeboWunjo/OpenCV.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/vision/preview.png",//todo
-						images 			: [
-											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
-											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
-											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
-										],
-						videos			: [
-											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
-										]
-					},
-					{
-						title 			: "Nao Robot",
-						short_desc		: "Choose an animal and Nao, the robot, will guess it.",
-						full_desc 		: "This project is a guessing game elaborated as part of the Human-robot interaction course (Radboud University, Nehterlands).<br>The player chooses an animal in a list. Then the robot asks some questions in order to guess their choice.<br>The solution is developed using the robot dev kit, which is able to deal with voice recognition, robot movements etc.",
-						keypoints 		: ["Human-robot interaction"],
-						tools	 		: ["Nao Robot dev kit"],
-						context			: ["2 Programmers"],
-						repository		: undefined,
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",//todo
-						images 			: [
-											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
-											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
-											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
-										],
-						videos			: []
 					}
 				]
 			},
 			{
 				title : "Artificial Intelligence",
-				index : 3,
+				index : 1,
 				items : [
 					{
 						title 			: "A star / Dijkstra",
@@ -232,7 +147,94 @@ angular.module('components', ['ngSanitize'])
 						videos			: []
 					}
 				]
-			}/*,
+			},
+			{
+				title : "Applications",
+				index : 2,
+				items : [
+					{
+						title 			: "Computer Vision",
+						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
+						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
+						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
+						tools	 		: ["Unity","OpenCV (EmguCV)"],
+						context			: ["3 Programmers"],
+						repository		: "https://github.com/GeboWunjo/OpenCV.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/vision/preview.png",//todo
+						images 			: [
+											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
+											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
+											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
+										],
+						videos			: [
+											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+										]
+					},
+					{
+						title 			: "Nao Robot",
+						short_desc		: "Choose an animal and Nao, the robot, will guess it.",
+						full_desc 		: "This project is a guessing game elaborated as part of the Human-robot interaction course (Radboud University, Nehterlands).<br>The player chooses an animal in a list. Then the robot asks some questions in order to guess their choice.<br>The solution is developed using the robot dev kit, which is able to deal with voice recognition, robot movements etc.",
+						keypoints 		: ["Human-robot interaction"],
+						tools	 		: ["Nao Robot dev kit"],
+						context			: ["2 Programmers"],
+						repository		: undefined,
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",//todo
+						images 			: [
+											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
+											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
+											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
+										],
+						videos			: []
+					}
+				]
+			},
+			{
+				title : "Education",
+				index : 3,
+				items : [
+					{
+						title 			: "Desafio",
+						short_desc		: "What about exercising the subjects of your classes by playing a game with your classmates? \"Desafio\" is a mobile game that makes the students collaborate and compete during a class section.",
+						full_desc 		: "The \"Desafio\" proposes a game to be played during a class section. The students download the mobile application and play a multiplayer quiz.<br>The gameplay was oriented to emphasize the interaction among the students, by stimulating them to collaborate and to compete. They can help their team partners by sending them tips, or block their opponents with the freezing ray, for example. And the interaction that happens outside the application is just as interesting.<br>This way, they can exercise the subjects of classes and have fun at the same time.",
+						keypoints 		: ["Gamification of classes","Multiplayer","Experimentation during classes","Mobile game for the students","Web Service to concentrate the content"],
+						tools	 		: ["Unity","AngularJS","SailsJS"],
+						context			: ["Individual (Bachelor Thesis)"],
+						repository		: undefined,
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/education/desafio/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/education/desafio/1.png", alt : "Welcome Screen" },
+											{ img : "../assets/img/projects/education/desafio/2.png", alt : "Multiple Choice Activity" },
+											{ img : "../assets/img/projects/education/desafio/3.png", alt : "Matching Activity" },
+											{ img : "../assets/img/projects/education/desafio/4.png", alt : "Freezing Ray Item's Effect" },
+											{ img : "../assets/img/projects/education/desafio/6.png", alt : "Ranking" }
+										],
+						videos			: [
+											//{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
+										]
+					},
+					{
+						title 			: "UCC",
+						short_desc		: "The programming contests are an important part of a student's formation in computer science. So, let's train in a fun way!",
+						full_desc 		: "As part of the PET-CC (Students who produce activities for helping other students), we proposed a contest inspired on the ACM programming competitions for bachelor's degree students. So, the competitors came on saturdays to participate in several modalities. Some gifts for the winners... Exercising and sharing knowledge were the objective.",
+						keypoints 		: ["Gamification"],
+						tools	 		: ["Boca (Contest Platform)"],
+						context			: ["2 trainees (PET-CC)"],
+						repository		: undefined,
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/education/ucc/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/education/ucc/1.png", alt : "Ultimate Coding Championship" },
+											{ img : "../assets/img/projects/education/ucc/2.png", alt : "Modalities" },
+											{ img : "../assets/img/projects/education/ucc/3.png", alt : "Participants" }
+										],
+						videos			: []
+					}
+				]
+			},
+			/*,
 			{
 				title : "Modelisation and Image Synthesis",
 				index : 4,

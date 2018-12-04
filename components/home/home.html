@@ -19,7 +19,7 @@
       <div class="central_info col-9">
 
         <!-- Categorie -->
-        <div class="categorie" ng-repeat="categorie in categories">
+        <div class="categorie" ng-class="{'categorie-first' : $first}" ng-repeat="categorie in categories">
           <div class="categorie_title">
             <p>{{categorie.title}}</p>
           </div>
