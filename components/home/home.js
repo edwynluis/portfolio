@@ -50,8 +50,8 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/games/lumy/4.png", alt : "Editing Unit" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },//todo
-											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }//todo facebook
+											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },
+											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }
 										]
 					},
 					{
@@ -63,7 +63,7 @@ angular.module('components', ['ngSanitize'])
 						context			: ["3 Programmers","3 Game Designers"],
 						repository		: "https://github.com/galliotgreg/Zombi-Escape.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",//todo
+						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",
 						images 			: [
 											{ img : "../assets/img/projects/games/zombie/2.png", alt : "Player view" },
 											{ img : "../assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" },
@@ -82,7 +82,7 @@ angular.module('components', ['ngSanitize'])
 						context			: ["1 Programmer","5 Game Designers"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/billy.git",
 						play			: "https://edwynbatista.herokuapp.com/billy",
-						preview_image 	: "../assets/img/projects/games/billy/1.png",// todo
+						preview_image 	: "../assets/img/projects/games/billy/1.png",
 						images 			: [
 											{ img : "../assets/img/projects/games/billy/1.png", alt : "Logo" },
 											{ img : "../assets/img/projects/games/billy/2.png", alt : "Character" },
@@ -96,8 +96,112 @@ angular.module('components', ['ngSanitize'])
 				]
 			},
 			{
-				title : "Artificial Intelligence",
+				title : "Modeling and Image Synthesis",
 				index : 1,
+				items : [
+					/*{
+						title 			: "Primitives and Meshes",
+						short_desc		: "Creating a mesh of triagles to generate 3D objects and manipulate complex 3D models.",
+						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cube, Cone etc) based on a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc)",
+						keypoints 		: ["01-04,09-10",""],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/primitive/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/primitive/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/primitive/2.png", alt : "" }
+										],
+						videos			: []
+					},*/
+					{
+						title 			: "Terrain Generation",
+						short_desc		: "Generating terrain using a triangle mesh and calculating routes.",
+						full_desc 		: "During a challenge to produce Terrain Generation solutions, I decided to apply the modeling algorithms (See the section about meshes) to obtain a terrain.<br>A square was generated as the basis for the terrain. Then, the subdivision of the triangle mesh (associated to some perturbation) generates the relief.<br>To obtain the routes that reach every point of the mesh, The \"Kruskal's\" algorithm for Minimum Spanning Tree was applied.",
+						keypoints 		: ["Triangle Mesh","Subdivision","Kruskal","Minimum Spanning Tree"],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: undefined, // todo
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/terrain/1.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/terrain/1.png", alt : "More detailed relief" },
+											{ img : "../assets/img/projects/model/terrain/2.png", alt : "Less detailed relief" },
+											{ img : "../assets/img/projects/model/terrain/3.png", alt : "Routes" },
+											{ img : "../assets/img/projects/model/terrain/4.png", alt : "Minimum Spanning Tree" }
+										],
+						videos			: []
+					}/*,
+					{
+						title 			: "Curves",
+						short_desc		: "aula 05-06",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/mesh/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Voxel",
+						short_desc		: "8",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/voxel/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/voxel/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/voxel/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Image Synthesis and Shaders",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Cinematics",
+						short_desc		: "",
+						full_desc 		: "",
+						keypoints 		: ["",""],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/cinematics/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/cinematics/1.png", alt : "" },
+											{ img : "../assets/img/projects/model/cinematics/2.png", alt : "" }
+										],
+						videos			: []
+					}*/
+				]
+			},
+			{
+				title : "Artificial Intelligence",
+				index : 2,
 				items : [
 					{
 						title 			: "A star / Dijkstra",
@@ -150,7 +254,7 @@ angular.module('components', ['ngSanitize'])
 			},
 			{
 				title : "Applications",
-				index : 2,
+				index : 3,
 				items : [
 					{
 						title 			: "Computer Vision",
@@ -161,7 +265,7 @@ angular.module('components', ['ngSanitize'])
 						context			: ["3 Programmers"],
 						repository		: "https://github.com/GeboWunjo/OpenCV.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/vision/preview.png",//todo
+						preview_image 	: "../assets/img/projects/applications/vision/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
 											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
@@ -180,7 +284,7 @@ angular.module('components', ['ngSanitize'])
 						context			: ["2 Programmers"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",//todo
+						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",
 						images 			: [
 											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
 											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
@@ -192,7 +296,7 @@ angular.module('components', ['ngSanitize'])
 			},
 			{
 				title : "Education",
-				index : 3,
+				index : 4,
 				items : [
 					{
 						title 			: "Desafio",
@@ -233,94 +337,7 @@ angular.module('components', ['ngSanitize'])
 						videos			: []
 					}
 				]
-			},
-			/*,
-			{
-				title : "Modelisation and Image Synthesis",
-				index : 4,
-				items : [
-					{
-						title 			: "Primitives and Curves",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/primitive/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/primitive/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/primitive/2.png", alt : "" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Meshes",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/mesh/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Voxel",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/voxel/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/voxel/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/voxel/2.png", alt : "" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Image Synthesis and Shaders",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Cinematics",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/cinematics/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/cinematics/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/cinematics/2.png", alt : "" }
-										],
-						videos			: []
-					}
-				]
-			}*/
+			}
 		];
 	  }
 	};
