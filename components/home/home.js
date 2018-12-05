@@ -101,9 +101,9 @@ angular.module('components', ['ngSanitize'])
 				items : [
 					/*{
 						title 			: "Primitives and Meshes",
-						short_desc		: "Creating a mesh of triagles to generate 3D objects and manipulate complex 3D models.",
+						short_desc		: "Creating a mesh of triagles to generate 3D objects and to manipulate complex 3D models.",
 						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cube, Cone etc) based on a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc)",
-						keypoints 		: ["01-04,09-10",""],
+						keypoints 		: ["01-04,09-10",""], // todo
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
@@ -132,68 +132,81 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/model/terrain/4.png", alt : "Minimum Spanning Tree" }
 										],
 						videos			: []
-					}/*,
-					{
+					},
+					/*{
 						title 			: "Curves",
-						short_desc		: "aula 05-06",
-						full_desc 		: "",
-						keypoints 		: ["",""],
+						short_desc		: "Exploration of algorithms for the representation of curves.",
+						full_desc 		: "The drawing of curves is performed via several techniques:<ul><li>Bézier's (Bernstein polynomial);</li><li>Hermite's;</li><li>Casteljau's.</li></ul><br>Then, theses methods are integrated into the representation of surface.", // todo tp7
+						keypoints 		: ["Bézier","Hermite","Casteljau","Surfaces"],
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingCurves.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/mesh/preview.png",
+						preview_image 	: "../assets/img/projects/model/curve/1.png", // todo
 						images 			: [
-											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }
+											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" }, // todo
+											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }  // todo
 										],
 						videos			: []
 					},
 					{
 						title 			: "Voxel",
-						short_desc		: "8",
-						full_desc 		: "",
-						keypoints 		: ["",""],
+						short_desc		: "Representing 3D objects via Voxels",
+						full_desc 		: "This project presents the application of voxels to represent 3D objects, allowing the execution of multiple operations to construct complex objects based on simple ones.<br>Operations that can be applied to the objects:<ul><li>Union;</li><li>Intersection;</li><li>Subtraction;</li><li>etc.</li></ul><br>The user can use an object to add/remove content to the scene at runtime.",
+						keypoints 		: ["Voxel Operations"],
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingVoxel.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/voxel/preview.png",
+						preview_image 	: "../assets/img/projects/model/voxel/preview.png" // todo
 						images 			: [
-											{ img : "../assets/img/projects/model/voxel/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/voxel/2.png", alt : "" }
+											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "" } // todo
 										],
 						videos			: []
 					},
 					{
-						title 			: "Image Synthesis and Shaders",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
-						tools	 		: ["OpenGL","C++"],
+						title 			: "Image Synthesis : Ray tracing",
+						short_desc		: "The exploration of Image Synthesis techniques",
+						full_desc 		: "Some algorithms for the synthesis of 3D images. It includes:<ul><li>the intersection of rays and objects (Spheres and Planes), using Bounding Boxes;</li><li>Reflexion and Refraction;</li><li>Direct lighting.</li></ul>",
+						keypoints 		: ["Ray Tracing","Bounding boxes","Lighting","Reflexion","Refraction"],
+						tools	 		: ["C++"],
 						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						repository		: "https://github.com/Edwyn-Gamagora2017/Synthesis3d.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
+						preview_image 	: "../assets/img/projects/model/synthesis/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "" }
+											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
+											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }	// todo
 										],
 						videos			: []
 					},
 					{
-						title 			: "Cinematics",
-						short_desc		: "",
-						full_desc 		: "",
-						keypoints 		: ["",""],
+						title 			: "Shaders",
+						short_desc		: "Implementing shaders to generate 3D images",
+						full_desc 		: "Algorithms for the synthesis of 3D images by using shaders. It includes:<ul><li>Direct lighting;</li><li>Model/View/Projection transformations;</li><li>Applying textures;</li><li>Mirrors and Portals.</li></ul>",
+						keypoints 		: ["Lighting","Textures","Transformations","Mirrors and Portals"],
+						tools	 		: ["C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Shading.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/shader/1.png", 	// todo
+						images 			: [
+											{ img : "../assets/img/projects/model/shader/1.gif", alt : "Scene using shaders" }	// todo
+										],
+						videos			: []
+					},
+					{
+						title 			: "2D Kinematics",
+						short_desc		: "Implementing algorithms for 2D Kinematics and applying them to move an arm.",
+						full_desc 		: "The algorithms for Direct and Inverse Kinematics are applied on an articulated arm, that follows the mouse. Each arm's joint has restrictions of rotation angle.",
+						keypoints 		: ["Direct Kinematics","Inverse Kinematics","Joints and Angle restriction"],
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
+						repository		: "https://github.com/Edwyn-Gamagora2017/kinematics.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/cinematics/preview.png",
+						preview_image 	: "../assets/img/projects/model/kinematics/1.png", // todo
 						images 			: [
-											{ img : "../assets/img/projects/model/cinematics/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/cinematics/2.png", alt : "" }
+											{ img : "../assets/img/projects/model/kinematics/1.gif", alt : "Moving arm (Inverse Kinematics)" }
 										],
 						videos			: []
 					}*/
