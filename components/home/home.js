@@ -66,7 +66,7 @@ angular.module('components', ['ngSanitize'])
 						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",//todo
 						images 			: [
 											{ img : "../assets/img/projects/games/zombie/2.png", alt : "Player view" },
-											{ img : "../assets/img/projects/games/zombie/1.png", alt : "Multiplayer" },
+											{ img : "../assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" },
 											{ img : "../assets/img/projects/games/zombie/3.png", alt : "Final Score" },
 										],
 						videos			: [
