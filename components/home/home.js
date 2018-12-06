@@ -50,8 +50,8 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/games/lumy/4.png", alt : "Editing Unit" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "teaser Lumy Naissance" },
-											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "facebook Lumy Naissance" }
+											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "Teaser Lumy Naissance" },
+											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "Facebook Lumy Naissance" }
 										]
 					},
 					{
@@ -66,7 +66,7 @@ angular.module('components', ['ngSanitize'])
 						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",
 						images 			: [
 											{ img : "../assets/img/projects/games/zombie/2.png", alt : "Player view" },
-											{ img : "../assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" },
+											{ img : "../assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" }, // todo solo
 											{ img : "../assets/img/projects/games/zombie/3.png", alt : "Final Score" },
 										],
 						videos			: [
@@ -163,7 +163,7 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "" } // todo
 										],
 						videos			: []
-					},
+					},*/
 					{
 						title 			: "Image Synthesis : Ray tracing",
 						short_desc		: "The exploration of Image Synthesis techniques",
@@ -173,10 +173,10 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Synthesis3d.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/synthesis/1.png",
+						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
-											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }	// todo
+											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }
 										],
 						videos			: []
 					},
@@ -189,9 +189,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Shading.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/shader/1.png", 	// todo
+						preview_image 	: "../assets/img/projects/model/shader/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/shader/1.gif", alt : "Scene using shaders" }	// todo
+											{ img : "../assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
+											{ img : "../assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
+											{ img : "../assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
 										],
 						videos			: []
 					},
@@ -204,12 +206,12 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/kinematics.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/kinematics/1.png", // todo
+						preview_image 	: "../assets/img/projects/model/kinematics/preview.png",
 						images 			: [
 											{ img : "../assets/img/projects/model/kinematics/1.gif", alt : "Moving arm (Inverse Kinematics)" }
 										],
 						videos			: []
-					}*/
+					}
 				]
 			},
 			{
@@ -244,7 +246,7 @@ angular.module('components', ['ngSanitize'])
 						preview_image 	: "../assets/img/projects/ai/flocking/preview2.png",
 						images 			: [
 											{ img : "../assets/img/projects/ai/flocking/2.png", alt : "field of view : 360 degrees" },
-											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "field of view : 90 degrees" }
+											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "field of view : 90 degrees" } // todo video
 										],
 						videos			: []
 					},
@@ -259,7 +261,7 @@ angular.module('components', ['ngSanitize'])
 						play			: "https://edwynbatista.herokuapp.com/genetic",
 						preview_image 	: "../assets/img/projects/ai/genetic/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" }
+											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" } // todo video
 										],
 						videos			: []
 					}
