@@ -272,6 +272,24 @@ angular.module('components', ['ngSanitize'])
 				index : 3,
 				items : [
 					{
+						title 			: "Nexarium : Games and Blockchain",
+						short_desc		: "Games inside the blockchain: Nexarium is an app to trade game assets in the Ethereum blockchain.",
+						full_desc 		: "The games of B2Expand share assets among them by using the Ethereum blockchain. The gamers can buy assets, use them in several games and finally sell them.<br>This app is the trading point of the Nexarium ecosystem. The user can create a wallet and manipulate its blockchain assets. That is the true ownership of assets.<br><br>Among several tasks, I was engaged on:<ul><li>The conception of the app's architecture : hierarchy, modularity and reusability;</li><li>Communication with the blockchain Ethereum on Unity3D;</li><li>Edition of Smart Contracts:</li><li>Creation of a submodule git for handling authetication using a state machine  (can be integrated into the company's Unity3D games);</li></ul><br>I invite you to check the developed work on the report attached.",
+						keypoints 		: ["Architecture","Blockchain","Smart Contracts"],
+						tools	 		: ["Unity3D","Nethereum","Solidity","Ganache","Remix"],
+						context			: ["B2Expand"],
+						repository		: undefined,
+						play			: undefined, // todo
+						preview_image 	: "../assets/img/projects/applications/nexarium/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/applications/nexarium/1.png", alt : "List of available assets" },
+											{ img : "../assets/img/projects/applications/nexarium/2.png", alt : "Authetication panel" }
+										],
+						videos			: [
+											{ img : "../assets/img/report.png", link : "../assets/doc/InternshipReport-EdwynBatista-M2-Gamagora-2018.pdf", alt : "Development Report" }
+										]
+					},
+					{
 						title 			: "Computer Vision",
 						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
 						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
