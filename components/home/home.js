@@ -86,7 +86,8 @@ angular.module('components', ['ngSanitize'])
 						images 			: [
 											{ img : "../assets/img/projects/games/billy/1.png", alt : "Logo" },
 											{ img : "../assets/img/projects/games/billy/2.png", alt : "Character" },
-											{ img : "../assets/img/projects/games/billy/3.png", alt : "Map (in-game)" },
+											{ img : "../assets/img/projects/games/billy/1.gif", alt : "Opening doors" },
+											{ img : "../assets/img/projects/games/billy/2.gif", alt : "Activating bridges" },
 											{ img : "../assets/img/projects/games/billy/4.png", alt : "3D perspective" }
 										],
 						videos			: [
