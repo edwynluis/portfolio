@@ -103,16 +103,18 @@ angular.module('components', ['ngSanitize'])
 					/*{
 						title 			: "Primitives and Meshes",
 						short_desc		: "Creating a mesh of triagles to generate 3D objects and to manipulate complex 3D models.",
-						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cube, Cone etc) based on a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc)",
+						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cylinder, Cone etc) based on the implementation of a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc)",
 						keypoints 		: ["01-04,09-10",""], // todo
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/primitive/preview.png",
+						preview_image 	: "../assets/img/projects/model/mesh/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/primitive/1.png", alt : "" },
-											{ img : "../assets/img/projects/model/primitive/2.png", alt : "" }
+											{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
+											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },
+											{ img : "../assets/img/projects/model/mesh/3.gif", alt : "Simplification" },
+											{ img : "../assets/img/projects/model/mesh/4.gif", alt : "Subdivision" },
 										],
 						videos			: []
 					},*/
@@ -149,9 +151,9 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }  // todo
 										],
 						videos			: []
-					},
+					},*/
 					{
-						title 			: "Voxel",
+						title 			: "Voxels",
 						short_desc		: "Representing 3D objects via Voxels",
 						full_desc 		: "This project presents the application of voxels to represent 3D objects, allowing the execution of multiple operations to construct complex objects based on simple ones.<br>Operations that can be applied to the objects:<ul><li>Union;</li><li>Intersection;</li><li>Subtraction;</li><li>etc.</li></ul><br>The user can use an object to add/remove content to the scene at runtime.",
 						keypoints 		: ["Voxel Operations"],
@@ -159,12 +161,14 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingVoxel.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/voxel/preview.png" // todo
+						preview_image 	: "../assets/img/projects/model/voxel/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "" } // todo
+											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "Objects created from operations" },
+											{ img : "../assets/img/projects/model/voxel/2.gif", alt : "Changing granularity" },
+											{ img : "../assets/img/projects/model/voxel/3.gif", alt : "Insertion/Remotion tool" }
 										],
 						videos			: []
-					},*/
+					},
 					{
 						title 			: "Image Synthesis : Ray tracing",
 						short_desc		: "The exploration of Image Synthesis techniques",
