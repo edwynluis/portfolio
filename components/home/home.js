@@ -136,22 +136,24 @@ angular.module('components', ['ngSanitize'])
 										],
 						videos			: []
 					},
-					/*{
+					{
 						title 			: "Curves",
 						short_desc		: "Exploration of algorithms for the representation of curves.",
-						full_desc 		: "The drawing of curves is performed via several techniques:<ul><li>Bézier's (Bernstein polynomial);</li><li>Hermite's;</li><li>Casteljau's.</li></ul><br>Then, theses methods are integrated into the representation of surface.", // todo tp7
+						full_desc 		: "The drawing of curves is performed via several techniques:<ul><li>Bézier (Bernstein polynomial);</li><li>Hermite;</li><li>Casteljau.</li></ul><br>Then, theses methods are integrated into the representation of surface.", // todo tp7
 						keypoints 		: ["Bézier","Hermite","Casteljau","Surfaces"],
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingCurves.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/curve/1.png", // todo
+						preview_image 	: "../assets/img/projects/model/curve/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/mesh/1.png", alt : "" }, // todo
-											{ img : "../assets/img/projects/model/mesh/2.png", alt : "" }  // todo
+											{ img : "../assets/img/projects/model/curve/1-curve.gif", alt : "Bezier curve" },
+											{ img : "../assets/img/projects/model/curve/1-surf.gif", alt : "Swept surface" },
+											{ img : "../assets/img/projects/model/curve/2-surf.gif", alt : "Ruled surface" },
+											{ img : "../assets/img/projects/model/curve/3-surf.gif", alt : "Bezier surface" }
 										],
 						videos			: []
-					},*/
+					},
 					{
 						title 			: "Voxels",
 						short_desc		: "Representing 3D objects via Voxels",
