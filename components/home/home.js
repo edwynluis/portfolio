@@ -100,24 +100,24 @@ angular.module('components', ['ngSanitize'])
 				title : "Modeling and Image Synthesis",
 				index : 1,
 				items : [
-					/*{
+					{
 						title 			: "Primitives and Meshes",
 						short_desc		: "Creating a mesh of triagles to generate 3D objects and to manipulate complex 3D models.",
-						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cylinder, Cone etc) based on the implementation of a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc)",
-						keypoints 		: ["01-04,09-10",""], // todo
+						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cylinder, Cone etc) based on the implementation of a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc).",
+						keypoints 		: ["Triangle Mesh","Simplification","Subdivision"],
 						tools	 		: ["OpenGL","C++"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/mesh/1.png",
+						preview_image 	: "../assets/img/projects/model/mesh/1.3.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
-											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },
+											/*{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
+											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },*/
 											{ img : "../assets/img/projects/model/mesh/3.gif", alt : "Simplification" },
-											{ img : "../assets/img/projects/model/mesh/4.gif", alt : "Subdivision" },
+											{ img : "../assets/img/projects/model/mesh/4.gif", alt : "Subdivision (See Terrain Generation)" }
 										],
 						videos			: []
-					},*/
+					},
 					{
 						title 			: "Terrain Generation",
 						short_desc		: "Generating terrain using a triangle mesh and calculating routes.",
