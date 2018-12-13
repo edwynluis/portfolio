@@ -111,8 +111,8 @@ angular.module('components', ['ngSanitize'])
 						play			: undefined,
 						preview_image 	: "../assets/img/projects/model/mesh/1.3.png",
 						images 			: [
-											/*{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
-											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },*/
+											{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
+											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },
 											{ img : "../assets/img/projects/model/mesh/3.gif", alt : "Simplification" },
 											{ img : "../assets/img/projects/model/mesh/4.gif", alt : "Subdivision (See Terrain Generation)" }
 										],
