@@ -155,23 +155,6 @@ angular.module('components', ['ngSanitize'])
 						videos			: []
 					},
 					{
-						title 			: "Voxels",
-						short_desc		: "Representing 3D objects via Voxels",
-						full_desc 		: "This project presents the application of voxels to represent 3D objects, allowing the execution of multiple operations to construct complex objects based on simple ones.<br>Operations that can be applied to the objects:<ul><li>Union;</li><li>Intersection;</li><li>Subtraction;</li><li>etc.</li></ul><br>The user can use an object to add/remove content to the scene at runtime.",
-						keypoints 		: ["Voxel Operations"],
-						tools	 		: ["OpenGL","C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingVoxel.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/voxel/1.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "Objects created from operations" },
-											{ img : "../assets/img/projects/model/voxel/2.gif", alt : "Changing granularity" },
-											{ img : "../assets/img/projects/model/voxel/3.gif", alt : "Insertion/Remotion tool" }
-										],
-						videos			: []
-					},
-					{
 						title 			: "Image Synthesis : Ray tracing",
 						short_desc		: "The exploration of Image Synthesis techniques",
 						full_desc 		: "Some algorithms for the synthesis of 3D images. It includes:<ul><li>the intersection of rays and objects (Spheres and Planes), using Bounding Boxes;</li><li>Reflexion and Refraction;</li><li>Direct lighting.</li></ul>",
@@ -201,6 +184,23 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
 											{ img : "../assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
 											{ img : "../assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Voxels",
+						short_desc		: "Representing 3D objects via Voxels",
+						full_desc 		: "This project presents the application of voxels to represent 3D objects, allowing the execution of multiple operations to construct complex objects based on simple ones.<br>Operations that can be applied to the objects:<ul><li>Union;</li><li>Intersection;</li><li>Subtraction;</li><li>etc.</li></ul><br>The user can use an object to add/remove content to the scene at runtime.",
+						keypoints 		: ["Voxel Operations"],
+						tools	 		: ["OpenGL","C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingVoxel.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/voxel/1.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "Objects created from operations" },
+											{ img : "../assets/img/projects/model/voxel/2.gif", alt : "Changing granularity" },
+											{ img : "../assets/img/projects/model/voxel/3.gif", alt : "Insertion/Remotion tool" }
 										],
 						videos			: []
 					},
