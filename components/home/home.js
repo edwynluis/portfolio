@@ -101,6 +101,39 @@ angular.module('components', ['ngSanitize'])
 				index : 1,
 				items : [
 					{
+						title 			: "Image Synthesis : Ray tracing",
+						short_desc		: "The exploration of Image Synthesis techniques",
+						full_desc 		: "Some algorithms for the synthesis of 3D images. It includes:<ul><li>the intersection of rays and objects (Spheres and Planes), using Bounding Boxes;</li><li>Reflexion and Refraction;</li><li>Direct lighting.</li></ul>",
+						keypoints 		: ["Ray Tracing","Bounding boxes","Lighting","Reflexion","Refraction"],
+						tools	 		: ["C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Synthesis3d.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
+											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }
+										],
+						videos			: []
+					},
+					{
+						title 			: "Shaders",
+						short_desc		: "Implementing shaders to generate 3D images",
+						full_desc 		: "Algorithms for the synthesis of 3D images by using shaders. It includes:<ul><li>Direct lighting;</li><li>Model/View/Projection transformations;</li><li>Applying textures;</li><li>Mirrors and Portals.</li></ul>",
+						keypoints 		: ["Lighting","Textures","Transformations","Mirrors and Portals"],
+						tools	 		: ["C++"],
+						context			: ["Individual"],
+						repository		: "https://github.com/Edwyn-Gamagora2017/Shading.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/model/shader/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
+											{ img : "../assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
+											{ img : "../assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
+										],
+						videos			: []
+					},
+					{
 						title 			: "Primitives and Meshes",
 						short_desc		: "Creating a mesh of triagles to generate 3D objects and to manipulate complex 3D models.",
 						full_desc 		: "This project starts with the creation of 3D objects (Sphere, Cylinder, Cone etc) based on the implementation of a mesh of triangles. Therefore, it has been evolved to the manipulation of pre-existing models (Simplification, Subdivision etc).",
@@ -151,39 +184,6 @@ angular.module('components', ['ngSanitize'])
 											{ img : "../assets/img/projects/model/curve/1-surf.gif", alt : "Swept surface" },
 											{ img : "../assets/img/projects/model/curve/2-surf.gif", alt : "Ruled surface" },
 											{ img : "../assets/img/projects/model/curve/3-surf.gif", alt : "Bezier surface" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Image Synthesis : Ray tracing",
-						short_desc		: "The exploration of Image Synthesis techniques",
-						full_desc 		: "Some algorithms for the synthesis of 3D images. It includes:<ul><li>the intersection of rays and objects (Spheres and Planes), using Bounding Boxes;</li><li>Reflexion and Refraction;</li><li>Direct lighting.</li></ul>",
-						keypoints 		: ["Ray Tracing","Bounding boxes","Lighting","Reflexion","Refraction"],
-						tools	 		: ["C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Synthesis3d.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
-											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }
-										],
-						videos			: []
-					},
-					{
-						title 			: "Shaders",
-						short_desc		: "Implementing shaders to generate 3D images",
-						full_desc 		: "Algorithms for the synthesis of 3D images by using shaders. It includes:<ul><li>Direct lighting;</li><li>Model/View/Projection transformations;</li><li>Applying textures;</li><li>Mirrors and Portals.</li></ul>",
-						keypoints 		: ["Lighting","Textures","Transformations","Mirrors and Portals"],
-						tools	 		: ["C++"],
-						context			: ["Individual"],
-						repository		: "https://github.com/Edwyn-Gamagora2017/Shading.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/shader/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
-											{ img : "../assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
-											{ img : "../assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
 										],
 						videos			: []
 					},
