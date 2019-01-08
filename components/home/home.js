@@ -97,8 +97,68 @@ angular.module('components', ['ngSanitize'])
 				]
 			},
 			{
-				title : "Modeling and Image Synthesis",
+				title : "Applications",
 				index : 1,
+				items : [
+					{
+						title 			: "Nexarium : Games and Blockchain",
+						short_desc		: "Games inside the blockchain: Nexarium is an app to trade game assets in the Ethereum blockchain.",
+						full_desc 		: "The games of B2Expand share assets among them by using the Ethereum blockchain. The gamers can buy assets, use them in several games and finally sell them.<br>This app is the trading point of the Nexarium ecosystem. The user can create a wallet and manipulate its blockchain assets. That is the true ownership of assets.<br><br>Among several tasks, I was engaged on:<ul><li>The conception of the app's architecture : hierarchy, modularity and reusability;</li><li>Communication with the blockchain Ethereum on Unity3D;</li><li>Edition of Smart Contracts:</li><li>Creation of a submodule git for handling authetication using a state machine  (can be integrated into the company's Unity3D games);</li></ul><br>I invite you to check the developed work on the report attached.",
+						keypoints 		: ["Architecture","Blockchain","Smart Contracts"],
+						tools	 		: ["Unity3D","Nethereum","Solidity","Ganache","Remix"],
+						context			: ["B2Expand"],
+						repository		: undefined,
+						play			: undefined, // todo
+						preview_image 	: "../assets/img/projects/applications/nexarium/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/applications/nexarium/1.png", alt : "List of available assets" },
+											{ img : "../assets/img/projects/applications/nexarium/2.png", alt : "Authetication panel" }
+										],
+						videos			: [
+											{ img : "../assets/img/report.png", link : "../assets/doc/InternshipReport-EdwynBatista-M2-Gamagora-2018.pdf", alt : "Development Report" }
+										]
+					},
+					{
+						title 			: "Computer Vision",
+						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
+						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
+						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
+						tools	 		: ["Unity","OpenCV (EmguCV)"],
+						context			: ["3 Programmers"],
+						repository		: "https://github.com/GeboWunjo/OpenCV.git",
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/vision/preview.png",
+						images 			: [
+											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
+											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
+											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
+										],
+						videos			: [
+											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+										]
+					},
+					{
+						title 			: "Nao Robot",
+						short_desc		: "Choose an animal and Nao, the robot, will guess it.",
+						full_desc 		: "This project is a guessing game elaborated as part of the Human-robot interaction course (Radboud University, Nehterlands).<br>The player chooses an animal in a list. Then the robot asks some questions in order to guess their choice.<br>The solution is developed using the robot dev kit, which is able to deal with voice recognition, robot movements etc.",
+						keypoints 		: ["Human-robot interaction"],
+						tools	 		: ["Nao Robot dev kit"],
+						context			: ["2 Programmers"],
+						repository		: undefined,
+						play			: undefined,
+						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",
+						images 			: [
+											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
+											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
+											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
+										],
+						videos			: []
+					}
+				]
+			},
+			{
+				title : "Modeling and Image Synthesis",
+				index : 2,
 				items : [
 					{
 						title 			: "Image Synthesis : Ray tracing",
@@ -223,7 +283,7 @@ angular.module('components', ['ngSanitize'])
 			},
 			{
 				title : "Artificial Intelligence",
-				index : 2,
+				index : 3,
 				items : [
 					{
 						title 			: "A star / Dijkstra",
@@ -269,66 +329,6 @@ angular.module('components', ['ngSanitize'])
 						preview_image 	: "../assets/img/projects/ai/genetic/preview2.png",
 						images 			: [
 											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" } // todo video
-										],
-						videos			: []
-					}
-				]
-			},
-			{
-				title : "Applications",
-				index : 3,
-				items : [
-					/*{
-						title 			: "Nexarium : Games and Blockchain",
-						short_desc		: "Games inside the blockchain: Nexarium is an app to trade game assets in the Ethereum blockchain.",
-						full_desc 		: "The games of B2Expand share assets among them by using the Ethereum blockchain. The gamers can buy assets, use them in several games and finally sell them.<br>This app is the trading point of the Nexarium ecosystem. The user can create a wallet and manipulate its blockchain assets. That is the true ownership of assets.<br><br>Among several tasks, I was engaged on:<ul><li>The conception of the app's architecture : hierarchy, modularity and reusability;</li><li>Communication with the blockchain Ethereum on Unity3D;</li><li>Edition of Smart Contracts:</li><li>Creation of a submodule git for handling authetication using a state machine  (can be integrated into the company's Unity3D games);</li></ul><br>I invite you to check the developed work on the report attached.",
-						keypoints 		: ["Architecture","Blockchain","Smart Contracts"],
-						tools	 		: ["Unity3D","Nethereum","Solidity","Ganache","Remix"],
-						context			: ["B2Expand"],
-						repository		: undefined,
-						play			: undefined, // todo
-						preview_image 	: "../assets/img/projects/applications/nexarium/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/applications/nexarium/1.png", alt : "List of available assets" },
-											{ img : "../assets/img/projects/applications/nexarium/2.png", alt : "Authetication panel" }
-										],
-						videos			: [
-											{ img : "../assets/img/report.png", link : "../assets/doc/InternshipReport-EdwynBatista-M2-Gamagora-2018.pdf", alt : "Development Report" }
-										]
-					},*/
-					{
-						title 			: "Computer Vision",
-						short_desc		: "A short demonstration of Computer vision in games.<br>Mouth and marker detection.",
-						full_desc 		: "A short demonstration of Computer vision in games.<br>In this game, the player can beat the monster by freezing him (Mouth opening) and hitting him (Marker detection). The webcamera image is used as source to a Neural Network that detects the face; Image processing is used to extract elements that  trigger actions in the game.",
-						keypoints 		: ["Mouth Opening/Closing detection", "Face detection", "Marker detection", "Image processing"],
-						tools	 		: ["Unity","OpenCV (EmguCV)"],
-						context			: ["3 Programmers"],
-						repository		: "https://github.com/GeboWunjo/OpenCV.git",
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/vision/preview.png",
-						images 			: [
-											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
-											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
-											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
-										],
-						videos			: [
-											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
-										]
-					},
-					{
-						title 			: "Nao Robot",
-						short_desc		: "Choose an animal and Nao, the robot, will guess it.",
-						full_desc 		: "This project is a guessing game elaborated as part of the Human-robot interaction course (Radboud University, Nehterlands).<br>The player chooses an animal in a list. Then the robot asks some questions in order to guess their choice.<br>The solution is developed using the robot dev kit, which is able to deal with voice recognition, robot movements etc.",
-						keypoints 		: ["Human-robot interaction"],
-						tools	 		: ["Nao Robot dev kit"],
-						context			: ["2 Programmers"],
-						repository		: undefined,
-						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",
-						images 			: [
-											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
-											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
-											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
 										],
 						videos			: []
 					}
