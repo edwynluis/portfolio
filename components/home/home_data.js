@@ -41,12 +41,12 @@ $scope.categories = [
 				context			: "3 Programmers; 3 Game Designers",
 				repository		: "https://github.com/galliotgreg/Zombi-Escape.git",
 				play			: undefined,
-				preview_image 	: "../assets/img/projects/games/zombie/preview.png",//todo
+				preview_image 	: "../docs/assets/img/projects/games/zombie/preview.png",//todo
 				images 			: [
-									{ img : "../assets/img/projects/games/zombie/1.png", alt : "" }// todo
+									{ img : "../docs/assets/img/projects/games/zombie/1.png", alt : "" }// todo
 								],
 				videos			: [
-									{ img : "../assets/img/video.png", link : "", alt : "" }// todo
+									{ img : "../docs/assets/img/video.png", link : "", alt : "" }// todo
 								]
 			},
 			{
@@ -58,12 +58,12 @@ $scope.categories = [
 				context			: "3 Programmers",
 				repository		: "https://github.com/GeboWunjo/OpenCV.git",
 				play			: undefined,
-				preview_image 	: "../assets/img/projects/games/vision/preview.png",//todo
+				preview_image 	: "../docs/assets/img/projects/games/vision/preview.png",//todo
 				images 			: [
-									{ img : "../assets/img/projects/games/vision/1.png", alt : "" }//todo
+									{ img : "../docs/assets/img/projects/games/vision/1.png", alt : "" }//todo
 								],
 				videos			: [
-									{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+									{ img : "../docs/assets/img/video.png", link : "", alt : "" }//todo
 								]
 			},
 			{
@@ -74,13 +74,13 @@ $scope.categories = [
 				tools	 		: ["Unity"],
 				context			: "1 Programmer; 5 Game Designers",
 				repository		: "https://github.com/Edwyn-Gamagora2017/billy.git",
-				play			: "https://edwynbatista.herokuapp.com/billy",
-				preview_image 	: "../assets/img/projects/games/billy/preview.png",// todo
+				play			: "https://edwynbatista.com/billy",
+				preview_image 	: "../docs/assets/img/projects/games/billy/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/games/billy/1.png", alt : "" }//todo
+									{ img : "../docs/assets/img/projects/games/billy/1.png", alt : "" }//todo
 								],
 				videos			: [
-									{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+									{ img : "../docs/assets/img/video.png", link : "", alt : "" }//todo
 								]
 			},
 			{
@@ -92,13 +92,13 @@ $scope.categories = [
 				context			: "5 Programmers; 10 Game Designers; 1 Graphic Designer; 1 Music/Sound Effects Composer",
 				repository		: "https://github.com/galliotgreg/Lumy_Naissance.git",
 				play			: undefined,
-				preview_image 	: "../assets/img/projects/games/lumy/preview.png",//todo
+				preview_image 	: "../docs/assets/img/projects/games/lumy/preview.png",//todo
 				images 			: [
-									{ img : "../assets/img/projects/games/lumy/1.png", alt : "" }//todo
+									{ img : "../docs/assets/img/projects/games/lumy/1.png", alt : "" }//todo
 								],
 				videos			: [
-									{ img : "../assets/img/video.png", link : "", alt : "" }//todo
-									{ img : "../assets/img/facebook.png", link : "", alt : "" }//todo facebook
+									{ img : "../docs/assets/img/video.png", link : "", alt : "" },//todo
+									{ img : "../docs/assets/img/facebook.png", link : "", alt : "" }//todo facebook
 								]
 			}
 		]
@@ -115,12 +115,12 @@ $scope.categories = [
 				context			: "individual",
 				repository		: undefined,
 				play			: undefined,
-				preview_image 	: "../assets/img/projects/education/desafio/preview.png",// todo
+				preview_image 	: "../docs/assets/img/projects/education/desafio/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/education/desafio/", alt : "" }//todo
+									{ img : "../docs/assets/img/projects/education/desafio/", alt : "" }//todo
 								],
 				videos			: [
-									{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
+									{ img : "../docs/assets/img/gplay.png", link : "", alt : "" }//todo gplay
 								]
 			},
 			{
@@ -132,9 +132,9 @@ $scope.categories = [
 				context			: "2 trainees (PET-CC)",
 				repository		: undefined,
 				play			: undefined,
-				preview_image 	: "../assets/img/projects/education/ucc/preview.png",// todo
+				preview_image 	: "../docs/assets/img/projects/education/ucc/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/education/ucc/1.png", alt : "" }//todo
+									{ img : "../docs/assets/img/projects/education/ucc/1.png", alt : "" }//todo
 								],
 				videos			: []
 			}
@@ -151,10 +151,10 @@ $scope.categories = [
 				tools	 		: ["Unity"],
 				context			: "individual",
 				repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-				play			: "https://edwynbatista.herokuapp.com/astar",
-				preview_image 	: "../assets/img/projects/ai/astar/preview.png",// todo
+				play			: "https://edwynbatista.com/astar",
+				preview_image 	: "../docs/assets/img/projects/ai/astar/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/ai/astar/1.png", alt : "" }
+									{ img : "../docs/assets/img/projects/ai/astar/1.png", alt : "" }
 								],
 				videos			: []
 			},
@@ -166,10 +166,10 @@ $scope.categories = [
 				tools	 		: ["Unity"],
 				context			: "individual",
 				repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-				play			: "https://edwynbatista.herokuapp.com/flocking",
-				preview_image 	: "../assets/img/projects/ai/flocking/preview.png",// todo
+				play			: "https://edwynbatista.com/flocking",
+				preview_image 	: "../docs/assets/img/projects/ai/flocking/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/ai/flocking/1.png", alt : "" }
+									{ img : "../docs/assets/img/projects/ai/flocking/1.png", alt : "" }
 								],
 				videos			: []
 			},
@@ -181,10 +181,10 @@ $scope.categories = [
 				tools	 		: ["Unity"],
 				context			: "individual",
 				repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-				play			: "https://edwynbatista.herokuapp.com/genetic",
-				preview_image 	: "../assets/img/projects/ai/genetic/preview.png",// todo
+				play			: "https://edwynbatista.com/genetic",
+				preview_image 	: "../docs/assets/img/projects/ai/genetic/preview.png",// todo
 				images 			: [
-									{ img : "../assets/img/projects/ai/genetic/1.png", alt : "" }
+									{ img : "../docs/assets/img/projects/ai/genetic/1.png", alt : "" }
 								],
 				videos			: []
 			}
@@ -212,14 +212,14 @@ $scope.categories = [
 	context			: "",
 	repository		: undefined,
 	play			: undefined,
-	preview_image 	: "../assets/img/projects//preview.png",
+	preview_image 	: "../docs/assets/img/projects//preview.png",
 	images 			: [
-						{ img : "../assets/img/projects//1.png", alt : "" }
+						{ img : "../docs/assets/img/projects//1.png", alt : "" }
 					],
 	videos			: [
-						{ img : "../assets/img/video.png", link : "", alt : "" },
-						{ img : "../assets/img/facebook.png", link : "", alt : "" },
-						{ img : "../assets/img/gplay.png", link : "", alt : "" }
+						{ img : "../docs/assets/img/video.png", link : "", alt : "" },
+						{ img : "../docs/assets/img/facebook.png", link : "", alt : "" },
+						{ img : "../docs/assets/img/gplay.png", link : "", alt : "" }
 					]
 }
 */

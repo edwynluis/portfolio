@@ -42,16 +42,16 @@ angular.module('components', ['ngSanitize'])
 						context			: ["5 Programmers","10 Game Designers","1 Graphic Designer","1 Music/Sound Effects Composer"],
 						repository		: "https://github.com/galliotgreg/Lumy_Naissance.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/lumy/preview.png",
+						preview_image 	: "../docs/assets/img/projects/games/lumy/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/games/lumy/1.png", alt : "Lumy Naissance" },
-											{ img : "../assets/img/projects/games/lumy/1.gif", alt : "Game" },
-											{ img : "../assets/img/projects/games/lumy/2.gif", alt : "Editing Behavior" },
-											{ img : "../assets/img/projects/games/lumy/4.png", alt : "Editing Unit" }
+											{ img : "../docs/assets/img/projects/games/lumy/1.png", alt : "Lumy Naissance" },
+											{ img : "../docs/assets/img/projects/games/lumy/1.gif", alt : "Game" },
+											{ img : "../docs/assets/img/projects/games/lumy/2.gif", alt : "Editing Behavior" },
+											{ img : "../docs/assets/img/projects/games/lumy/4.png", alt : "Editing Unit" }
 										],
 						videos			: [
-											{ img : "../assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "Teaser Lumy Naissance" },
-											{ img : "../assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "Facebook Lumy Naissance" }
+											{ img : "../docs/assets/img/video.png", link : "https://www.youtube.com/watch?v=B5Lxy5LWQiA", alt : "Teaser Lumy Naissance" },
+											{ img : "../docs/assets/img/facebook.png", link : "https://www.facebook.com/Lumy-Naissance-1658638194215587/", alt : "Facebook Lumy Naissance" }
 										]
 					},
 					{
@@ -63,14 +63,14 @@ angular.module('components', ['ngSanitize'])
 						context			: ["3 Programmers","3 Game Designers"],
 						repository		: "https://github.com/galliotgreg/Zombi-Escape.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/games/zombie/preview2.png",
+						preview_image 	: "../docs/assets/img/projects/games/zombie/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/games/zombie/2.png", alt : "Player view" },
-											{ img : "../assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" }, // todo solo
-											{ img : "../assets/img/projects/games/zombie/3.png", alt : "Final Score" },
+											{ img : "../docs/assets/img/projects/games/zombie/2.png", alt : "Player view" },
+											{ img : "../docs/assets/img/projects/games/zombie/1.gif", alt : "Multiplayer" }, // todo solo
+											{ img : "../docs/assets/img/projects/games/zombie/3.png", alt : "Final Score" },
 										],
 						videos			: [
-											//{ img : "../assets/img/video.png", link : "", alt : "" }// todo
+											//{ img : "../docs/assets/img/video.png", link : "", alt : "" }// todo
 										]
 					},
 					{
@@ -81,17 +81,17 @@ angular.module('components', ['ngSanitize'])
 						tools	 		: ["Unity"],
 						context			: ["1 Programmer","5 Game Designers"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/billy.git",
-						play			: "https://edwynbatista.herokuapp.com/billy",
-						preview_image 	: "../assets/img/projects/games/billy/1.png",
+						play			: "https://edwynbatista.com/billy",
+						preview_image 	: "../docs/assets/img/projects/games/billy/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/games/billy/1.png", alt : "Logo" },
-											{ img : "../assets/img/projects/games/billy/2.png", alt : "Character" },
-											{ img : "../assets/img/projects/games/billy/1.gif", alt : "Opening doors" },
-											{ img : "../assets/img/projects/games/billy/2.gif", alt : "Activating bridges" },
-											{ img : "../assets/img/projects/games/billy/4.png", alt : "3D perspective" }
+											{ img : "../docs/assets/img/projects/games/billy/1.png", alt : "Logo" },
+											{ img : "../docs/assets/img/projects/games/billy/2.png", alt : "Character" },
+											{ img : "../docs/assets/img/projects/games/billy/1.gif", alt : "Opening doors" },
+											{ img : "../docs/assets/img/projects/games/billy/2.gif", alt : "Activating bridges" },
+											{ img : "../docs/assets/img/projects/games/billy/4.png", alt : "3D perspective" }
 										],
 						videos			: [
-											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+											//{ img : "../docs/assets/img/video.png", link : "", alt : "" }//todo
 										]
 					}
 				]
@@ -109,13 +109,13 @@ angular.module('components', ['ngSanitize'])
 						context			: ["B2Expand"],
 						repository		: undefined,
 						play			: undefined, // todo
-						preview_image 	: "../assets/img/projects/applications/nexarium/preview.png",
+						preview_image 	: "../docs/assets/img/projects/applications/nexarium/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/applications/nexarium/1.png", alt : "List of available assets" },
-											{ img : "../assets/img/projects/applications/nexarium/2.png", alt : "Authetication panel" }
+											{ img : "../docs/assets/img/projects/applications/nexarium/1.png", alt : "List of available assets" },
+											{ img : "../docs/assets/img/projects/applications/nexarium/2.png", alt : "Authetication panel" }
 										],
 						videos			: [
-											{ img : "../assets/img/report.png", link : "../assets/doc/InternshipReport-EdwynBatista-M2-Gamagora-2018.pdf", alt : "Development Report" }
+											{ img : "../docs/assets/img/report.png", link : "../docs/assets/doc/InternshipReport-EdwynBatista-M2-Gamagora-2018.pdf", alt : "Development Report" }
 										]
 					},
 					{
@@ -127,14 +127,14 @@ angular.module('components', ['ngSanitize'])
 						context			: ["3 Programmers"],
 						repository		: "https://github.com/GeboWunjo/OpenCV.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/vision/preview.png",
+						preview_image 	: "../docs/assets/img/projects/applications/vision/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
-											{ img : "../assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
-											{ img : "../assets/img/projects/applications/vision/3.png", alt : "Detection" }
+											{ img : "../docs/assets/img/projects/applications/vision/1.png", alt : "In-game scene" },
+											{ img : "../docs/assets/img/projects/applications/vision/2.png", alt : "Recognition Effect" },
+											{ img : "../docs/assets/img/projects/applications/vision/3.png", alt : "Detection" }
 										],
 						videos			: [
-											//{ img : "../assets/img/video.png", link : "", alt : "" }//todo
+											//{ img : "../docs/assets/img/video.png", link : "", alt : "" }//todo
 										]
 					},
 					{
@@ -146,11 +146,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["2 Programmers"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/applications/nao/preview3.png",
+						preview_image 	: "../docs/assets/img/projects/applications/nao/preview3.png",
 						images 			: [
-											{ img : "../assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
-											{ img : "../assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
-											{ img : "../assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
+											{ img : "../docs/assets/img/projects/applications/nao/3.png", alt : "Nao Robot" },
+											{ img : "../docs/assets/img/projects/applications/nao/1.png", alt : "Game implementation" },
+											{ img : "../docs/assets/img/projects/applications/nao/2.png", alt : "We will never forget each other" }
 										],
 						videos			: []
 					}
@@ -169,10 +169,10 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Synthesis3d.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/synthesis/preview.png",
+						preview_image 	: "../docs/assets/img/projects/model/synthesis/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
-											{ img : "../assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }
+											{ img : "../docs/assets/img/projects/model/synthesis/1.png", alt : "Direct lighting" },
+											{ img : "../docs/assets/img/projects/model/synthesis/2.png", alt : "Reflexion" }
 										],
 						videos			: []
 					},
@@ -185,11 +185,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Shading.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/shader/preview.png",
+						preview_image 	: "../docs/assets/img/projects/model/shader/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
-											{ img : "../assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
-											{ img : "../assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
+											{ img : "../docs/assets/img/projects/model/shader/1.gif", alt : "GIF: Scene using shaders" },
+											{ img : "../docs/assets/img/projects/model/shader/1.png", alt : "Scene using shaders with a mirror (white panel)" },
+											{ img : "../docs/assets/img/projects/model/shader/2.png", alt : "Scene using shaders with portals (yellow panel)" }
 										],
 						videos			: []
 					},
@@ -202,12 +202,12 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/mesh/1.3.png",
+						preview_image 	: "../docs/assets/img/projects/model/mesh/1.3.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
-											{ img : "../assets/img/projects/model/mesh/2.gif", alt : "Cone" },
-											{ img : "../assets/img/projects/model/mesh/3.gif", alt : "Simplification" },
-											{ img : "../assets/img/projects/model/mesh/4.gif", alt : "Subdivision (See Terrain Generation)" }
+											{ img : "../docs/assets/img/projects/model/mesh/1.gif", alt : "Cylinder" },
+											{ img : "../docs/assets/img/projects/model/mesh/2.gif", alt : "Cone" },
+											{ img : "../docs/assets/img/projects/model/mesh/3.gif", alt : "Simplification" },
+											{ img : "../docs/assets/img/projects/model/mesh/4.gif", alt : "Subdivision (See Terrain Generation)" }
 										],
 						videos			: []
 					},
@@ -220,12 +220,12 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: undefined, // todo
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/terrain/1.png",
+						preview_image 	: "../docs/assets/img/projects/model/terrain/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/terrain/1.png", alt : "More detailed relief" },
-											{ img : "../assets/img/projects/model/terrain/2.png", alt : "Less detailed relief" },
-											{ img : "../assets/img/projects/model/terrain/3.png", alt : "Routes" },
-											{ img : "../assets/img/projects/model/terrain/4.png", alt : "Minimum Spanning Tree" }
+											{ img : "../docs/assets/img/projects/model/terrain/1.png", alt : "More detailed relief" },
+											{ img : "../docs/assets/img/projects/model/terrain/2.png", alt : "Less detailed relief" },
+											{ img : "../docs/assets/img/projects/model/terrain/3.png", alt : "Routes" },
+											{ img : "../docs/assets/img/projects/model/terrain/4.png", alt : "Minimum Spanning Tree" }
 										],
 						videos			: []
 					},
@@ -238,12 +238,12 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingCurves.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/curve/1.png",
+						preview_image 	: "../docs/assets/img/projects/model/curve/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/curve/1-curve.gif", alt : "Bezier curve" },
-											{ img : "../assets/img/projects/model/curve/1-surf.gif", alt : "Swept surface" },
-											{ img : "../assets/img/projects/model/curve/2-surf.gif", alt : "Ruled surface" },
-											{ img : "../assets/img/projects/model/curve/3-surf.gif", alt : "Bezier surface" }
+											{ img : "../docs/assets/img/projects/model/curve/1-curve.gif", alt : "Bezier curve" },
+											{ img : "../docs/assets/img/projects/model/curve/1-surf.gif", alt : "Swept surface" },
+											{ img : "../docs/assets/img/projects/model/curve/2-surf.gif", alt : "Ruled surface" },
+											{ img : "../docs/assets/img/projects/model/curve/3-surf.gif", alt : "Bezier surface" }
 										],
 						videos			: []
 					},
@@ -256,11 +256,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/ModelingVoxel.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/voxel/1.png",
+						preview_image 	: "../docs/assets/img/projects/model/voxel/1.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/voxel/1.gif", alt : "Objects created from operations" },
-											{ img : "../assets/img/projects/model/voxel/2.gif", alt : "Changing granularity" },
-											{ img : "../assets/img/projects/model/voxel/3.gif", alt : "Insertion/Remotion tool" }
+											{ img : "../docs/assets/img/projects/model/voxel/1.gif", alt : "Objects created from operations" },
+											{ img : "../docs/assets/img/projects/model/voxel/2.gif", alt : "Changing granularity" },
+											{ img : "../docs/assets/img/projects/model/voxel/3.gif", alt : "Insertion/Remotion tool" }
 										],
 						videos			: []
 					},
@@ -273,9 +273,9 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/kinematics.git",
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/model/kinematics/preview.png",
+						preview_image 	: "../docs/assets/img/projects/model/kinematics/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/model/kinematics/1.gif", alt : "Moving arm (Inverse Kinematics)" }
+											{ img : "../docs/assets/img/projects/model/kinematics/1.gif", alt : "Moving arm (Inverse Kinematics)" }
 										],
 						videos			: []
 					}
@@ -294,10 +294,10 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
 						play			: "https://edwynbatista.herokuapp.com/astar",
-						preview_image 	: "../assets/img/projects/ai/astar/preview2.png",
+						preview_image 	: "../docs/assets/img/projects/ai/astar/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/astar/1.png", alt : "A* and Dijkstra paths" },
-											{ img : "../assets/img/projects/ai/astar/2.png", alt : "A* and Dijkstra paths" }
+											{ img : "../docs/assets/img/projects/ai/astar/1.png", alt : "A* and Dijkstra paths" },
+											{ img : "../docs/assets/img/projects/ai/astar/2.png", alt : "A* and Dijkstra paths" }
 										],
 						videos			: []
 					},
@@ -309,11 +309,11 @@ angular.module('components', ['ngSanitize'])
 						tools	 		: ["Unity"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: "https://edwynbatista.herokuapp.com/flocking",
-						preview_image 	: "../assets/img/projects/ai/flocking/preview2.png",
+						play			: "https://edwynbatista.com/flocking",
+						preview_image 	: "../docs/assets/img/projects/ai/flocking/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/flocking/2.png", alt : "field of view : 360 degrees" },
-											{ img : "../assets/img/projects/ai/flocking/1.png", alt : "field of view : 90 degrees" } // todo video
+											{ img : "../docs/assets/img/projects/ai/flocking/2.png", alt : "field of view : 360 degrees" },
+											{ img : "../docs/assets/img/projects/ai/flocking/1.png", alt : "field of view : 90 degrees" } // todo video
 										],
 						videos			: []
 					},
@@ -325,10 +325,10 @@ angular.module('components', ['ngSanitize'])
 						tools	 		: ["Unity"],
 						context			: ["Individual"],
 						repository		: "https://github.com/Edwyn-Gamagora2017/Complex_Systems_Algorithms.git",
-						play			: "https://edwynbatista.herokuapp.com/genetic",
-						preview_image 	: "../assets/img/projects/ai/genetic/preview2.png",
+						play			: "https://edwynbatista.com/genetic",
+						preview_image 	: "../docs/assets/img/projects/ai/genetic/preview2.png",
 						images 			: [
-											{ img : "../assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" } // todo video
+											{ img : "../docs/assets/img/projects/ai/genetic/1.png", alt : "Genetic : View generations" } // todo video
 										],
 						videos			: []
 					}
@@ -347,16 +347,16 @@ angular.module('components', ['ngSanitize'])
 						context			: ["Individual (Bachelor Thesis)"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/desafio/preview.png",
+						preview_image 	: "../docs/assets/img/projects/education/desafio/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/education/desafio/1.png", alt : "Welcome Screen" },
-											{ img : "../assets/img/projects/education/desafio/2.png", alt : "Multiple Choice Activity" },
-											{ img : "../assets/img/projects/education/desafio/3.png", alt : "Matching Activity" },
-											{ img : "../assets/img/projects/education/desafio/4.png", alt : "Freezing Ray Item's Effect" },
-											{ img : "../assets/img/projects/education/desafio/6.png", alt : "Ranking" }
+											{ img : "../docs/assets/img/projects/education/desafio/1.png", alt : "Welcome Screen" },
+											{ img : "../docs/assets/img/projects/education/desafio/2.png", alt : "Multiple Choice Activity" },
+											{ img : "../docs/assets/img/projects/education/desafio/3.png", alt : "Matching Activity" },
+											{ img : "../docs/assets/img/projects/education/desafio/4.png", alt : "Freezing Ray Item's Effect" },
+											{ img : "../docs/assets/img/projects/education/desafio/6.png", alt : "Ranking" }
 										],
 						videos			: [
-											//{ img : "../assets/img/gplay.png", link : "", alt : "" }//todo gplay
+											//{ img : "../docs/assets/img/gplay.png", link : "", alt : "" }//todo gplay
 										]
 					},
 					{
@@ -368,11 +368,11 @@ angular.module('components', ['ngSanitize'])
 						context			: ["2 trainees (PET-CC)"],
 						repository		: undefined,
 						play			: undefined,
-						preview_image 	: "../assets/img/projects/education/ucc/preview.png",
+						preview_image 	: "../docs/assets/img/projects/education/ucc/preview.png",
 						images 			: [
-											{ img : "../assets/img/projects/education/ucc/1.png", alt : "Ultimate Coding Championship" },
-											{ img : "../assets/img/projects/education/ucc/2.png", alt : "Modalities" },
-											{ img : "../assets/img/projects/education/ucc/3.png", alt : "Participants" }
+											{ img : "../docs/assets/img/projects/education/ucc/1.png", alt : "Ultimate Coding Championship" },
+											{ img : "../docs/assets/img/projects/education/ucc/2.png", alt : "Modalities" },
+											{ img : "../docs/assets/img/projects/education/ucc/3.png", alt : "Participants" }
 										],
 						videos			: []
 					}
@@ -427,14 +427,14 @@ Modelisacao: simplificacao/subdivisao; geracao de terreno e rotas
 	context			: "",
 	repository		: undefined,
 	play			: undefined,
-	preview_image 	: "../assets/img/projects//preview.png",
+	preview_image 	: "../docs/assets/img/projects//preview.png",
 	images 			: [
-						{ img : "../assets/img/projects//1.png", alt : "" }
+						{ img : "../docs/assets/img/projects//1.png", alt : "" }
 					],
 	videos			: [
-						{ img : "../assets/img/video.png", link : "", alt : "" },
-						{ img : "../assets/img/facebook.png", link : "", alt : "" },
-						{ img : "../assets/img/gplay.png", link : "", alt : "" }
+						{ img : "../docs/assets/img/video.png", link : "", alt : "" },
+						{ img : "../docs/assets/img/facebook.png", link : "", alt : "" },
+						{ img : "../docs/assets/img/gplay.png", link : "", alt : "" }
 					]
 }
 */
